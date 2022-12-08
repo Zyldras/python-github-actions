@@ -4,15 +4,15 @@ import print as print
 
 def test_nameNotEmpty():
     try:
-        print.hello("")
+        print.hello("Anna")
     except Exception as e:
         assert False, f"Nope {e}"
 
 def test_nameLengh():
     try:
-        print.hello("azertyuiopqsdfghjklmwxcvbnazera")
+        print.hello("azertyuiopqsdfghjklmwxcvbnazer")
     except Exception as e:
         assert False, f"Nope {e}"
 
 def test_hello():
-    assert print.hello("Tho") == "Hello Théo"
+    assert print.hello("Théo") == "Hello Théo"
