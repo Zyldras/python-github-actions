@@ -1,7 +1,5 @@
 # content of test_sample.py
-def func(x):
-    return x + 1
-
+import print as print
 
 def test_answer():
-    assert func(4) == 5
+    assert print.add1(4) == 5
