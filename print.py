@@ -1,5 +1,5 @@
 def add1(x):
-    return x + 2
+    return x + 1
 
 
 print("Hello world")
