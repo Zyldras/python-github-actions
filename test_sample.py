@@ -1,6 +1,6 @@
 # content of test_sample.py
 import pytest
-import print as print
+import print
 
 def test_nameNotEmpty():
     try:
